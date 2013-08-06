@@ -1,8 +1,10 @@
   <jdbc-connection-pool driver-classname="" datasource-classname="com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource" res-type="javax.sql.ConnectionPoolDataSource" description="" name="__nrm">
       <property name="portNumber" value="3306"></property>
-      <property name="databaseName" value="nrm"></property>
+      <property name="databaseName" value="nrm_20130806"></property>
       <property name="Server" value="localhost"></property>
       <property name="user" value="root"></property>
       <property name="password" value=""></property>
     </jdbc-connection-pool>
     <jdbc-resource pool-name="__nrm" description="" jndi-name="jdbc/__nrm"></jdbc-resource>
+
+<resource-ref ref="jdbc/__nrm"></resource-ref>
